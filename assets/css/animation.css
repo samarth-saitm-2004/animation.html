@@ -1,0 +1,61 @@
+body
+{
+    margin: 0;
+}
+.div1
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: linear-gradient(red,blue);
+    position: absolute;
+
+    
+    animation-name: batch2;
+    animation-delay: 1s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+
+}
+
+    @keyframes batch2
+    {
+        0%{
+            left: 0;
+            top: 0;
+            background-image: linear-gradient(black red);
+        }
+        15%{
+            left:200px;
+            top: 0;
+            background-image: linear-gradient(green,yellow)
+        }
+        30%{
+            left: 200px;
+            top: 100px ;
+            background-image: linear-gradient(purple,cyan)
+        }
+        45%{
+            left: 400px;
+            top: 100px;
+            background-image: linear-gradient(black,blue)
+        }
+        60%{
+            left:400px;
+            top: 200px ;
+            background-image: linear-gradient(green,CYAN);
+        }
+        75%{
+            left:600px;
+            top:200px;
+            background-image: linear-gradient(lightgreen,purple);
+        }
+        100%{
+            left: 600px;
+            top:400px;
+            background-image: linear-gradient(yellow,black);
+        }
+    }
+
+    
